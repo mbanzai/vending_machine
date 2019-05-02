@@ -1,0 +1,59 @@
+Oracle BI Core LCM Team – Interview Assignment
+
+The assigment is completed creating a RESTful web service using Python and the Flask microframework.
+
+Central to the concept of RESTful web services is the notion of resources. Resources are represented by URIs.
+The clients send requests to these URIs using the methods defined by the HTTP protocol,
+and possibly as a result of that the state of the affected resource changes.
+
+The clients of our web service will be asking the service to...
+Our tasks resource will use HTTP methods as follows:
+
+
+
+
+
+HTTP Method URI                                             Action:
+* GET        http://[hostname]/status/            show the amount of coins (aka the bank) in the machine
+example:
+    {"1":10, "5":10, "10":10, "20":10, "100":10} means that there are:
+    10 pieces of One penny coin
+    10 pieces of Two pence coin
+    10 pieces of Five pence coin
+    10 pieces of Ten pence coin
+    10 pieces of Twenty pence coin
+    10 pieces of One pound coin
+Example to invoke from commad line:
+curl -H "Content-Type: application/json" -X GET  http://localhost:8001/status/
+
+* POST http://[hostname]/initialise/       Update the current amount of coins (aka the bank) available in the vending machine
+
+Example to invoke from commad line:
+    curl -H "Content-Type: application/json"  -X POST 'http://localhost:8001/initialise/' --data '{"1":20,"2":30}'
+
+* POST http://[hostname]/payment/     Initialise the initial float of the machine (the coins placed in the machine for customer change)
+
+Example to invoke from commad line:
+    curl -H "Content-Type: application/json"  -X POST  'http://localhost:8001/payment/' --data '{"1":20,"2":30}'
+
+* POST    http://[hostname]/change/<int:value>       Compute the change for the user
+Example to invoke from commad line:
+    curl -H "Content-Type: application/json" -X GET  http://localhost:8001/change/6
+
+In place of a database we will store our resources in a memory structure.
+This will only work when the web server that runs our application is single process and single threaded.
+
+Unit testing is provided in the test_app.py file
+
+
+How to run the API:
+0. decompress the zip file
+    tar xvfz vending_machine.tar.gz
+1. create a virtualenv for python 3
+2. set the variables:
+    export FLASK_CONFIG=testing
+    export FLASK_APP=run
+3. execute:
+    python run.py
+
+    ... and the API will be up and running, any issue get in touch with on slack ;-)
