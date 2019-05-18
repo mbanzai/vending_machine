@@ -205,3 +205,22 @@
 2019-05-18 19:02:55,576 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit) 
 2019-05-18 19:03:12,392 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [18/May/2019 19:03:12] "GET / HTTP/1.1" 200 - 
 2019-05-18 19:03:22,465 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [18/May/2019 19:03:22] "GET / HTTP/1.1" 200 - 
+2019-05-18 19:41:32,348 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit) 
+2019-05-18 19:41:32,353 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
+2019-05-18 19:41:32,510 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
+2019-05-18 19:41:32,521 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 281-726-999 
+2019-05-18 19:41:40,328 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit) 
+2019-05-18 19:41:40,329 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
+2019-05-18 19:41:40,623 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
+2019-05-18 19:41:40,632 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 281-726-999 
+2019-05-18 19:45:38,831 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Detected change in '/Users/mcossu/Projects/test/vending_machine/app/utils.py', reloading 
+2019-05-18 19:45:38,853 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
+2019-05-18 19:45:39,060 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
+2019-05-18 19:45:39,066 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 281-726-999 
+2019-05-18 19:46:58,129 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Detected change in '/Users/mcossu/Projects/test/vending_machine/app/utils.py', reloading 
+2019-05-18 19:46:58,152 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
+2019-05-18 19:46:58,342 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
+2019-05-18 19:46:58,347 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 281-726-999 
+2019-05-18 19:48:30,568 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [18/May/2019 19:48:30] "POST /initialise/ HTTP/1.1" 400 - 
+2019-05-18 19:51:55,750 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [18/May/2019 19:51:55] "POST /initialise/ HTTP/1.1" 400 - 
+2019-05-18 19:52:24,367 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [18/May/2019 19:52:24] "POST /initialise/ HTTP/1.1" 400 - 

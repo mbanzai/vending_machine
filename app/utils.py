@@ -2,8 +2,6 @@ import json
 
 # Accepted values for coins,
 # 50 is 50 pence, 100 is one pound, 200 is two pounds
-coins = ("1", "2", "5", "10", "20", "50", "100", "200")
-# coins = ("200", "100", "50", "20", "10", "5", "2", "1")
 coins = (200, 100, 50, 20, 10, 5, 2, 1)
 
 # from flask import current_app as app
@@ -27,14 +25,6 @@ def is_valid_input(value):
             return "{} is not one of the expected coins: {}".format(ele, coins)
     return True
 
-#
-# print(is_valid_input("1 2 3"))
-# print(is_valid_input( {"1":10, "5":10, "10":10, "20":10} ))
-# print(is_valid_input({"1":10, "5":10, "110":10, "20":10}))
-# print(is_valid_input({"1":10, "5":10, "10":10, "20":10}))
-#
-#
-# print(is_valid_input( {"1":10, "5":10, "10":10, "20":10} ))
 
 def compute_change(change, avail_coins):
     '''
@@ -74,13 +64,7 @@ def remove_from_bank(coins, bank):
     for i in coins:
         bank[i] = bank.get(i,0) - coins[i]
     return bank
-#
-# c= {"1":2,"5":2, "100":1, "10":1}
-# d={"1":2,"5":2, "100":1}
-# # p=5
-# # print(compute_change(p,d))
-#
-# print(add_to_bank({}, d))
+
 
 class Account():
     account = {}
