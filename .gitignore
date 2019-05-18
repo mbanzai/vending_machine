@@ -1,3 +1,6 @@
+.git
+app.log*
+__pycache__/
 .DS_Store
 *.pyc
 .idea/
