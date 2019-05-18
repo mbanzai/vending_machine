@@ -13,7 +13,7 @@ bank = utils.Account({})
 
 @setup.route('/')
 def index():
-    return "Hello, World! This is a Vending Machine :-)"
+    return "Hello, World! This is a Vending Machine :-)\n"
 
 
 @setup.route('/status/')

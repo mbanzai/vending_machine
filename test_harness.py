@@ -1,7 +1,15 @@
+'''
+Docstring
+'''
 import requests
-import json
+
 
 def main():
+    '''
+    Test Harness script, it can be executed from command line with:
+    python test_harness.py
+    :return:
+    '''
 
     headers = {'content-type': 'application/json'}
 
@@ -38,34 +46,34 @@ def main():
 
         if com == '0':
             url = 'http://localhost:8001/'
-            r = requests.get(url, headers=headers)
-            print_out(r.status_code, r.text)
+            res = requests.get(url, headers=headers)
+            print_out(res.status_code, res.text)
 
         if com == '1':
             url = 'http://localhost:8001/status/'
-            r = requests.get(url, headers=headers)
-            print_out(r.status_code, r.text)
+            res = requests.get(url, headers=headers)
+            print_out(res.status_code, res.text)
 
         if com == '2':
             coins = input('Dictionary of coins, eg: {"1":10, "5":10, "10":10, "20":10, "100":10}:  ')
             url = 'http://localhost:8001/initialise/'
             payload = coins
-            r = requests.post(url, data=payload, headers=headers)
-            print_out(r.status_code, r.text)
+            res = requests.post(url, data=payload, headers=headers)
+            print_out(res.status_code, res.text)
 
         if com == '3':
             coins = input('The change is an integer to represent the pence, eg: 5 is 5 pence:  ')
             url = 'http://localhost:8001/change/'+ str(coins)
             payload = coins
-            r = requests.post(url, data=payload, headers=headers)
-            print_out(r.status_code, r.text)
+            res = requests.post(url, data=payload, headers=headers)
+            print_out(res.status_code, res.text)
 
         if com == '4':
             coins = input('The payment dictionary of coins, eg:{"1":20,"2":30}  ')
             url = 'http://localhost:8001/payment/'
             payload = coins
-            r = requests.post(url, data=payload, headers=headers)
-            print_out(r.status_code, r.text)
+            res = requests.post(url, data=payload, headers=headers)
+            print_out(res.status_code, res.text)
 
 if __name__ == "__main__":
     main()

@@ -13,9 +13,10 @@ from config import app_config
 def create_app(config_name):
     if os.getenv('FLASK_CONFIG') == "production":
         app = Flask(__name__)
-        app.config.update(
-            SECRET_KEY=os.getenv('SECRET_KEY'),
-        )
+        app.config.from_object(app_config[config_name])
+        # app.config.update(
+        #     SECRET_KEY=os.getenv('SECRET_KEY'),
+        # )
     else:
         app = Flask(__name__, instance_relative_config=True)
         app.config.from_object(app_config[config_name])
