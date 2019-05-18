@@ -57,3 +57,9 @@ How to run the API:
     python run.py
 
     ... and the API will be up and running, any issue get in touch with on slack ;-)
+
+If you want to use docker:
+0. create the image:
+    docker build -t vendingmachine:latest .
+1. run the container:
+    docker run -d -p 8001:8001 <image_idgit status>
