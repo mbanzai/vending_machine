@@ -148,3 +148,36 @@
 2019-05-02 09:08:09,070 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
 2019-05-02 09:08:09,236 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
 2019-05-02 09:08:09,243 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 849-850-947 
+2019-05-17 14:41:41,108 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit) 
+2019-05-17 14:41:41,113 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
+2019-05-17 14:41:41,267 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
+2019-05-17 14:41:41,273 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 281-726-999 
+2019-05-17 14:45:50,271 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:45:50] "GET / HTTP/1.1" 200 - 
+2019-05-17 14:46:04,013 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:46:04] "GET /status/ HTTP/1.1" 400 - 
+2019-05-17 14:47:20,542 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:47:20] "POST /initialise/ HTTP/1.1" 200 - 
+2019-05-17 14:47:24,719 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:47:24] "GET /status/ HTTP/1.1" 200 - 
+2019-05-17 14:48:36,337 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:48:36] "POST /change/6 HTTP/1.1" 200 - 
+2019-05-17 14:51:02,248 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:51:02] "POST /change/4 HTTP/1.1" 200 - 
+2019-05-17 14:51:29,472 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:51:29] "POST /payment/ HTTP/1.1" 200 - 
+2019-05-17 14:51:42,894 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:51:42] "GET /status/ HTTP/1.1" 200 - 
+2019-05-17 14:57:35,484 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 14:57:35] "POST /payment/ HTTP/1.1" 400 - 
+2019-05-17 15:01:22,422 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 15:01:22] "GET / HTTP/1.1" 200 - 
+2019-05-17 15:01:39,117 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 15:01:39] "POST /initialise/ HTTP/1.1" 200 - 
+2019-05-17 19:30:01,300 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Running on http://0.0.0.0:8001/ (Press CTRL+C to quit) 
+2019-05-17 19:30:01,302 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Restarting with stat 
+2019-05-17 19:30:01,463 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | WARNING |  * Debugger is active! 
+2019-05-17 19:30:01,470 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO |  * Debugger PIN: 281-726-999 
+2019-05-17 19:30:06,741 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:30:06] "GET /status/ HTTP/1.1" 400 - 
+2019-05-17 19:30:27,707 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:30:27] "POST /initialise/ HTTP/1.1" 200 - 
+2019-05-17 19:30:30,200 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:30:30] "GET /status/ HTTP/1.1" 200 - 
+2019-05-17 19:30:39,190 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:30:39] "POST /change/2 HTTP/1.1" 200 - 
+2019-05-17 19:36:59,308 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:36:59] "POST /change/1 HTTP/1.1" 200 - 
+2019-05-17 19:37:07,375 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:37:07] "POST /change/1 HTTP/1.1" 200 - 
+2019-05-17 19:37:56,549 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:37:56] "POST /initialise/ HTTP/1.1" 200 - 
+2019-05-17 19:38:01,352 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:38:01] "GET /status/ HTTP/1.1" 200 - 
+2019-05-17 19:38:07,900 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:38:07] "POST /change/5 HTTP/1.1" 200 - 
+2019-05-17 19:38:17,396 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:38:17] "POST /change/2 HTTP/1.1" 200 - 
+2019-05-17 19:38:54,892 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:38:54] "GET /status/ HTTP/1.1" 200 - 
+2019-05-17 19:39:01,563 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:39:01] "GET /status/ HTTP/1.1" 200 - 
+2019-05-17 19:39:06,265 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:39:06] "POST /change/1 HTTP/1.1" 200 - 
+2019-05-17 19:39:13,117 | /Users/mcossu/Virtualenvs/py3/lib/python3.7/site-packages/werkzeug/_internal.py:122 | _log | INFO | 127.0.0.1 - - [17/May/2019 19:39:13] "GET /status/ HTTP/1.1" 200 - 
