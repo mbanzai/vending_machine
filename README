@@ -45,6 +45,7 @@ This will only work when the web server that runs our application is single proc
 
 Unit testing is provided in the test_app.py file
 
+test_harness.py is a little script to interactevely try the api.
 
 How to run the API:
 0. decompress the zip file
