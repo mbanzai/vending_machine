@@ -112,9 +112,8 @@ class BasicTests(unittest.TestCase):
                               content_type='application/json',
                               follow_redirects=True)
         json_response = response.get_data(as_text=True)
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual('''false
-''', json_response)
+        self.assertEqual(response.status_code, 500)
+        self.assertEqual('{\n  "error": "Is not possible to give change."\n}\n', json_response)
 
 
     def test_status3(self):

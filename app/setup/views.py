@@ -116,7 +116,10 @@ def change(value):
 
         if change_to_give != False:
             bank.update(utils.remove_from_bank(change_to_give,bank.get_value()))
-        return jsonify(change_to_give), 200
+            return jsonify(change_to_give), 200
+        else:
+            return jsonify({"error": "Is not possible to give change."}), 500
+
 
     else:
         return jsonify("Bad data"), 400
